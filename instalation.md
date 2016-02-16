@@ -22,7 +22,7 @@ brew install postgresql redis memcached elasticsearch
 
 You will want to set postgresql to autostart at login via launchctl, if not already. See `brew info postgresql`. Redis and memcached may be setup similarly via launchctl or setup project wide by using foreman, described below.
 
-Make sure you had installed in your machine NodeJS
+Make sure you had installed NodeJS in your machine .
 ```
 apt-get install nodejs
 ```
