@@ -23,3 +23,4 @@ Tras crear la tarea tendremos disponible el link de invitacion a la tarea que se
 
 Las tareas individuales o grupales seran diferenciadas en el menu de tareas.
 
+![](assig_pics/menu.png)
