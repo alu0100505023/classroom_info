@@ -19,4 +19,8 @@ Para que la organizacion aparezca correctamente en la aplicacion es necesario da
 
 ![](access.png)
 
+Es recomendable modificar los permisos para que solo el profesor pueda crear repositorios, dando los permisos de edicion a los alumnos al ser estos asignados a la tarea en cuestion. Para ellos seleccionaremos la opcion "None".
+![](permissions.png)
+
+
 Tras este ultimo paso estaremos listos para empezar a usar la aplicacion.
