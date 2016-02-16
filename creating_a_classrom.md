@@ -14,3 +14,5 @@ Tras seleccionar la organizacion es posible darle un titulo mas descriptivo que 
 Si no es el unico profesor a cargo de esta clase, es posible añadir nuevos administradores dando permisos de propietario al nuevo profesor. Clickeando el link proporcionado por la aplicacion el nuevo profesor estara preparado para ser asignado en el sistema. 
 
 ![](inviteAd.png)
+
+Tras estos sencillos pasos ya estar disponible la clase para poder empezar con la asignacion de tareas.
