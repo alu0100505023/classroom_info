@@ -22,12 +22,23 @@ brew install postgresql redis memcached elasticsearch
 
 You will want to set postgresql to autostart at login via launchctl, if not already. See `brew info postgresql`. Redis and memcached may be setup similarly via launchctl or setup project wide by using foreman, described below.
 
+Make sure you had installed in your machine NodeJS
+```
+apt-get install nodejs
+```
+
 Now, let's install the gems from the `Gemfile` ("Gems" are synonymous with libraries in other
 languages).
 
 ```bash
 gem install bundler && rbenv rehash
 ```
+Or if you want to install it with bundle
+
+```bash
+bundle install classroom
+```
+
 
 ### Setup Classroom for GitHub
 Once bundler is installed go ahead and run the `setup` script
