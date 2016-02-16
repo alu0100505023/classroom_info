@@ -1,5 +1,6 @@
 ## Hacking on Classroom for GitHub
 
+
 ### Get started
 New to Ruby? No worries! You can follow these instructions to install a local server.
 
