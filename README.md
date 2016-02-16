@@ -9,60 +9,7 @@ Classroom for GitHub is a [Ruby on Rails](http://rubyonrails.org/) application d
 
 Assignments are the core of Classroom for GitHub. Teachers can easily create an assignment and distribute it to students using a private invitation URL. Optional starter code can be provided for individual or group work. It's even possible to delegate assignment creation and management to co-teachers and teaching assistants by adding them as organization administrators.
 
-## Hacking on Classroom for GitHub
 
-### Get started
-New to Ruby? No worries! You can follow these instructions to install a local server.
-
-#### Installing a Local Server
-
-First things first, you'll need to install Ruby 2.2.4. We recommend using the excellent [rbenv](https://github.com/sstephenson/rbenv),
-and [ruby-build](https://github.com/sstephenson/ruby-build)
-
-```bash
-rbenv install 2.3.0
-rbenv global 2.3.0
-```
-
-Next, you'll need to make sure that you have PostgreSQL, Redis, Memcached, and Elasticsearch installed. This can be
-done easily on OSX using [Homebrew](http://brew.sh)
-
-```bash
-brew install postgresql redis memcached elasticsearch
-```
-
-You will want to set postgresql to autostart at login via launchctl, if not already. See `brew info postgresql`. Redis and memcached may be setup similarly via launchctl or setup project wide by using foreman, described below.
-
-Now, let's install the gems from the `Gemfile` ("Gems" are synonymous with libraries in other
-languages).
-
-```bash
-gem install bundler && rbenv rehash
-```
-
-### Setup Classroom for GitHub
-Once bundler is installed go ahead and run the `setup` script
-```
-script/setup
-```
-
-### Production environment variables
-ENV Variable | Description |
-:-------------------|:-----------------|
-`AIRBRAKE_API_KEY` | the API key for airbrake.io, if set Airbrake will be enabled
-`CANONICAL_HOST` | the preferred hostname for the application, if set requests served on other hostnames will be redirected
-`GOOGLE_ANALYTICS_TRACKING_ID` | identifier for Google Analytics in the format `UA-.*`
-`PINGLISH_ENABLED` | Enable the `/_ping` endpoint with relevant health checks
-`MOTD` | Show the message of the day banner at the top of the site
-
-### Development environment variables
-These values must be present in your `.env` file (created by `script/setup`).
-
-ENV Variable | Description |
-:-------------------|:-----------------|
-`GITHUB_CLIENT_ID`| the GitHub Application Client ID.
-`GITHUB_CLIENT_SECRET`| the GitHub Application Client Secret.
-`NON_STAFF_GITHUB_ADMIN_IDS` | GitHub `user_ids` of users to be granted staff level access.
 
 ### Testing environment variables
 Classroom for GitHub uses [VCR](https://github.com/vcr/vcr) for recording and playing back API fixtures during test runs. These cassettes (fixtures) are part of the Git project in the `spec/support/cassettes` folder. If you're not recording new cassettes you can run the specs with existing cassettes with:
