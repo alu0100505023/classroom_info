@@ -3,5 +3,5 @@
 * [Introduction](README.md)
 * [Installation](installation.md)
 * [User guide](users_guide.md)
-   * Creating a classrom
+   * [Creating a classrom](creating_a_classrom.md)
 
