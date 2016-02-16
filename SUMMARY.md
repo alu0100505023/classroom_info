@@ -4,4 +4,5 @@
 * [Installation](installation.md)
 * [User guide](users_guide.md)
    * [Creating a classrom](creating_a_classrom.md)
+   * Creating assignments
 
