@@ -17,3 +17,4 @@ Para la asignacion del trabajo es necesario primeramente un nombre de tarea y la
 ###La seleccion de grupos
 Es posible seleccionar un grupo entre alumnos ya sido utilizado anteriormente, si se quiere crear un nuevo grupo su rellenara el cuadro de texto con el nombre y se aceptara la tarea.
 
+
