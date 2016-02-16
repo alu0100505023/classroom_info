@@ -17,3 +17,6 @@ Tras la creacion de la organizacion, invite a los alumnos a la misma. Tendran qu
 
 Para que la organizacion aparezca correctamente en la aplicacion es necesario darle permisos a la aplicacion classroom dentro del perfil de usuario del profesor. La ruta correspondiente para hallar este apartado seria Settigs, ir a la pestaña Aplications y dentro de Athorized aplicactions, pinchar en Classroom for GitHub y darle permisos a la organizacion en cuestion.
 
+![](access.png)
+
+Tras este ultimo paso estaremos listos para empezar a usar la aplicacion.
