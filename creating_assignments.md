@@ -24,3 +24,5 @@ Tras crear la tarea tendremos disponible el link de invitacion a la tarea que se
 Las tareas individuales o grupales seran diferenciadas en el menu de tareas.
 
 ![](assig_pics/menu.png)
+
+Tras la aceptacion por parte del alumno de la tarea, se creara un repositorio en la organizacion del github asignada a la clase.
