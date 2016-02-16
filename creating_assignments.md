@@ -20,3 +20,6 @@ Es posible seleccionar un grupo entre alumnos ya sido utilizado anteriormente, s
 ![](assig_pics/grou_send.png)
 
 Tras crear la tarea tendremos disponible el link de invitacion a la tarea que sera asignado al alumno o alumnos
+
+Las tareas individuales o grupales seran diferenciadas en el menu de tareas.
+
