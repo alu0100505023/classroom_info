@@ -26,3 +26,7 @@ Las tareas individuales o grupales seran diferenciadas en el menu de tareas.
 ![](assig_pics/menu.png)
 
 Tras la aceptacion por parte del alumno de la tarea, se creara un repositorio en la organizacion del github asignada a la clase.
+
+![](assig_pics/acept.png)
+
+En el menu de la tarea se podra ver e ir al repositorio en cuestion, ademas de comprobar que alumnos han aceptado la tarea.
