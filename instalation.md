@@ -5,13 +5,14 @@ New to Ruby? No worries! You can follow these instructions to install a local se
 
 #### Installing a Local Server
 
-First things first, you'll need to install Ruby 2.2.4. We recommend using the excellent [rbenv](https://github.com/sstephenson/rbenv),
+First things first, you'll need to install Ruby 2.3.0. We recommend using the excellent [rbenv](https://github.com/sstephenson/rbenv),
 and [ruby-build](https://github.com/sstephenson/ruby-build)
 
 ```bash
 rbenv install 2.3.0
 rbenv global 2.3.0
 ```
+Watch this tutorial if you want to use [rvm](https://rvm.io/rvm/install) instead of rbenv
 
 Next, you'll need to make sure that you have PostgreSQL, Redis, Memcached, and Elasticsearch installed. This can be
 done easily on OSX using [Homebrew](http://brew.sh)
@@ -19,6 +20,7 @@ done easily on OSX using [Homebrew](http://brew.sh)
 ```bash
 brew install postgresql redis memcached elasticsearch
 ```
+Or install each component using apt-get.
 
 You will want to set postgresql to autostart at login via launchctl, if not already. See `brew info postgresql`. Redis and memcached may be setup similarly via launchctl or setup project wide by using foreman, described below.
 
