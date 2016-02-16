@@ -14,7 +14,9 @@ Habiendo seleccionado la opcion Group assignment. Veremos el siguiente menu, que
 
 Para la asignacion del trabajo es necesario primeramente un nombre de tarea y la seleccion del tipo de repositorio, ya sea privado o publico. Como podemos ver en el ejemplo se le ha asignado a la tarea un repositorio con un codigo inicial para que los alumnos comiencen a trabajar, siendo esta opcion opcional.
 
-###La seleccion de grupos
+###Asignacion del alumnado
 Es posible seleccionar un grupo entre alumnos ya sido utilizado anteriormente, si se quiere crear un nuevo grupo su rellenara el cuadro de texto con el nombre y se aceptara la tarea.
 
+![](assig_pics/grou_send.png)
 
+Tras crear la tarea tendremos disponible el link de invitacion a la tarea que sera asignado al alumno o alumnos
