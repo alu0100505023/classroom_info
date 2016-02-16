@@ -2,5 +2,5 @@
 
 * [Introduction](README.md)
 * [Installation](installation.md)
-* [Users guide](users_guide.md)
+* [User guide](users_guide.md)
 
