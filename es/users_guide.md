@@ -1,6 +1,6 @@
 # User guide
 
-![first](/user_pics/first.png)
+![first](/../user_pics/first.png)
 
 ###Primeros pasos
 Github Classroom es una aplicacion para la creacion y control de repositiorios de la plataforma Github. Asi pues, tanto el profesor como los alumnos intereseados en el uso de la aplicacion deben estar registrados como usuarios en [Github](https://github.com/).
@@ -12,15 +12,15 @@ Para el uso de correcto de la aplicacion es necesario manejar la opcion de Organ
 
 Tras la creacion de la organizacion, invite a los alumnos a la misma. Tendran que verificar su ingreso para que salgan activos en la clase. La invitacion sera enviada por emaial.
 
-![invite](/user_pics/invite.png)
+![invite](/../user_pics/invite.png)
 
 
 Para que la organizacion aparezca correctamente en la aplicacion es necesario darle permisos a la aplicacion classroom dentro del perfil de usuario del profesor. La ruta correspondiente para hallar este apartado seria Settigs, ir a la pestaña Aplications y dentro de Athorized aplicactions, pinchar en Classroom for GitHub y darle permisos a la organizacion en cuestion.
 
-![](/user_pics/access.png)
+![](/../user_pics/access.png)
 
 Es recomendable modificar los permisos para que solo el profesor pueda crear repositorios, dando los permisos de edicion a los alumnos al ser estos asignados a la tarea en cuestion. Para ellos seleccionaremos la opcion "None".
-![](/user_pics/permissions.png)
+![](/../user_pics/permissions.png)
 
 
 Tras este ultimo paso estaremos listos para empezar a usar la aplicacion.
