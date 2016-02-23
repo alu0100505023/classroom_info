@@ -2,7 +2,7 @@
 
 Tras loguearnos y seleccionar la clase con la que queremos trabajar, nos aparecera el menu de asignacion de tareas. Si el caso de que ya hemos creado alguna, aparecera para ser seleccionada para su uso, en este caso crearemos una tarea desde cero.
 
-![](/assig_pics/first_assig.png)
+![](http://i125.photobucket.com/albums/p79/NooK1e_RG/gitbook/first_zpsppz3gblv.png)
 
 Las tareas podran ser asignadas a un unico alumno, o a un grupo de almnos pertenecientes a un grupo. Elegimos la opcion que mas nos convenga.
 ![](http://i125.photobucket.com/albums/p79/NooK1e_RG/gitbook/assig_options_zpsugkpvyui.png)
